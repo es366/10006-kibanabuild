@@ -15,3 +15,7 @@ yarn build --skip-os-packages
 ls -al
 cd build
 ls -al
+tar cvf kibana.tar kibana
+file kibana.tar
+cp kibana.tar ~/
+file ~/kibana.tar
