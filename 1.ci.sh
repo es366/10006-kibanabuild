@@ -13,3 +13,5 @@ yarn kbn bootstrap
 yarn build --skip-os-packages
 
 ls -al
+cd build
+ls -al
