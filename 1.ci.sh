@@ -9,7 +9,7 @@ echo "hello world"
 cd ~
 git clone -b dev_240511_03 --depth 1 https://github.com/es366/10004-kibana.git kibana
 cd kibana
-yarn
+yarn kbn bootstrap
 yarn build --skip-os-packages
 
 ls -al
