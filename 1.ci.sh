@@ -17,6 +17,5 @@ cd build
 ls -al
 tar cf kibana.tar kibana
 file kibana.tar
-cp kibana.tar /~/
-ls /~/
-file ~/kibana.tar
+cp kibana.tar ~/
+ls ~/
